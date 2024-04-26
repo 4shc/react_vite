@@ -1,0 +1,8 @@
+.card{
+  border: dashed 2px greenyellow;
+  background-color: #d6c8c8;
+  padding: 1em;
+  border-radius: 4px;
+  width: 30%;
+  color: #242424;
+}
