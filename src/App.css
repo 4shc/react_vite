@@ -1,5 +1,6 @@
 .app h1{
   text-align: center;
+  position: relative;
 }
 
 .container{
@@ -7,4 +8,27 @@
   justify-content: center;
   gap: 1em;
   flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app h1::after { /*👀 Obvia este estilo*/
+  content: "!S32";
+  font-size: 1em; /* Ajusta el tamaño de fuente según lo necesites */
+  color: #da10d01a; /* Color del texto */
+  position: absolute;
+  right: 100px; /* Posición relativa al borde derecho de .resalt */
+  top: 50%; /* Centrado verticalmente */
+  transform: translateY(-50%); /* Ajuste para centrado vertical */
 }

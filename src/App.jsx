@@ -1,7 +1,7 @@
 import './App.css'
 import Card from './Componentes/Card'
 // Importamos nuestro Json con nuestros datos
-import lenguajes from './datos/lenguajes'
+import lenguajes from './datos/lenguajes.js'
 
 function App() {
 
@@ -13,6 +13,10 @@ const ListasLenguajes = lenguajes.map((l, index) =>{
   return (
     <div className="app">
       <h1>React - Ejercicio Cards</h1>
+      <div className="container">
+        {ListasLenguajes}
+      </div>
+      <h1>React - Actividad</h1>
       <div className="container">
         {ListasLenguajes}
       </div>
