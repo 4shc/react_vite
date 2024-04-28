@@ -1,0 +1,9 @@
+.vista-cursos{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 0;
+  box-sizing: border-box;
+}

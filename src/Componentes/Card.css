@@ -5,4 +5,9 @@
   border-radius: 4px;
   width: 30%;
   color: #242424;
+  transition: transform 0.3s ease; 
+}
+.card:hover {
+  filter: sepia(33%);
+  transform: rotateY(10deg) rotateX(10deg);
 }
